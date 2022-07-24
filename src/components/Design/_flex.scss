@@ -1,0 +1,25 @@
+.flex{
+
+    display:flex;
+}
+
+.flex-col{
+
+    flex-direction: column;
+}
+
+.sp-center{
+
+    justify-content: center;
+}
+
+.sp-bw{
+
+    justify-content: space-between;
+}
+
+.flexbox{
+display: flex;
+justify-content: center;
+align-items: center;
+}

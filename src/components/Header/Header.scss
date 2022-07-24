@@ -1,0 +1,42 @@
+.header{
+  &-container{
+    background-color: rgb(138 , 148, 118);
+    padding: 20px;
+  
+
+  &-left {
+      &-text{
+
+        font-size:1.4rem;
+        color: rgb(225, 228, 67);
+        padding:10px
+      }
+     }
+  
+
+       &-middle {
+        gap : 2rem;
+        .header-link{
+               font-size : 1.2 rem;
+               background-color: rgb(160,182, 192);
+               padding:10px;
+               border-radius: 10px;
+               width: 100px;
+               text-align : center;
+        }
+    }
+
+        &-right
+        {
+          gap : 2rem;
+          .auth-link{
+            font-size: 1.2 rem;
+            color:rgb(187, 36 , 218);
+            padding:10px;
+          }
+
+
+        }
+    }
+
+}

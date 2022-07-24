@@ -1,0 +1,28 @@
+.login {
+    height: 100vh;
+    &-container {
+       background-color: whitesmoke;
+       width: 30vw;
+       height: 40vh;
+       gap:4rem;
+       margin: auto;
+       margin-top: 100px;
+
+    
+
+    &-heading {
+        color: brown;
+        font-size: 1.5rem;
+      }
+
+      &-form {
+           gap: 2rem;
+
+           .btn-form{
+            background-color: aqua;
+           }
+
+      }
+
+    }
+}
